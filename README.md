@@ -1,26 +1,24 @@
-# OOTY HACKS 2026
+# OOTY HACKS 2026 — The Summit Expedition
 
-A cinematic, interactive hackathon event website set in Ooty on December 19 & 20, 2026. OOTY HACKS brings together 500+ builders for a 24-hour sprint in the Nilgiri hills.
+A static event website for the offline 24-hour hackathon in Ooty, The Nilgiris, on **19–20 December 2026**. Teams: **1–4 members**. Registration: **₹1,000 per team**. Prize pool: **₹1 lakh**.
+
+## Design and interactions
+
+- Original supplied mountain poster, OOTY HACKS logo, and event-highlights artwork.
+- Misty blue landscape, forest-green typography, translucent panels, and restrained gold accents.
+- Responsive navigation and layouts for desktop, tablet, and mobile.
+- Skippable, replayable intro; drifting mist; gentle landscape parallax; scroll reveals; animated mission illustrations.
+- Persistent pause-motion control and system reduced-motion support.
+- Countdown to the event date in India Standard Time, with event-weekend and concluded states.
+- Two mission previews, a 12th-hour twist, event journey, supplied sponsor artwork, and expandable FAQs.
+- The supplied styled QR, decoder-verified and linked to its confirmed official OOTY HACKS destination.
+- Registration buttons lead to https://unstop.com/hackathons/ooty-hacks-hackhere-1768100.
+
+The exact venue, reporting time, mentor/jury roster, benefit details, and prize distribution remain to be announced. Career offers are subject to partner selection. GoHub, Scidaforest, and Unstop use supplied logo assets; ELRO Tech and delyon remain typeset because no artwork was supplied for them.
 
 ## Deploy on Vercel
 
-1. In Vercel, choose **Add New → Project** and import `hackhere2026-cloud/OOTY`.
-2. Use the repository root as the Root Directory (leave it unchanged).
-3. Click **Deploy**.
-
-The included `vercel.json` selects the **Other** framework preset, skips dependency installation, validates the site with `node verify.mjs`, and publishes only `dist/`. No environment variables or API keys are required.
-
-If configuring the project manually:
-
-| Setting | Value |
-| --- | --- |
-| Framework Preset | Other |
-| Root Directory | Repository root |
-| Install Command | Empty / skipped |
-| Build Command | `node verify.mjs` |
-| Output Directory | `dist` |
-
-Official reference: [Vercel project configuration](https://vercel.com/docs/project-configuration/vercel-json).
+Import `hackhere2026-cloud/OOTYHACKS`. The included `vercel.json` uses the Other preset, runs `node verify.mjs`, and publishes `dist/`. No package installation or environment variables are needed.
 
 ## Run locally
 
@@ -28,40 +26,22 @@ Official reference: [Vercel project configuration](https://vercel.com/docs/proje
 python3 -m http.server 4173 --directory dist
 ```
 
-Open `http://localhost:4173`. This is plain HTML, CSS, and JavaScript; there are no package dependencies or compilation steps.
-
-## Features
-
-- Enhanced real Nilgiri/Doddabetta hill photograph with scroll-driven motion.
-- Cinematic loading intro with skip, replay, and reduced-motion support.
-- Four interactive challenge tracks and three event-phase previews.
-- Live ticking countdown HUD clock with days left calculation.
-- Interactive sponsors console showcasing go.hub, scidaforest, elro tech, unstop, and delyon.
-- Downloadable team build brief.
-- Registration draft saved only on the current device, with download and clear controls.
-- Responsive navigation, native dialogs, FAQs, and optional browser WebMCP tools.
-
-## Event status
-
-The event is **OOTY HACKS 2026** held on **December 19 & 20, 2026** in Ooty, India. 24-hour non-stop hackathon with ₹30,000 prize pool, 500+ builders, and 5+ AI mentors and venture evaluators.
-
-**The registration form does not submit an application, send email, or reserve a place.** It is a local draft preview. Add an official registration destination or backend before accepting real applications.
-
-## Files
-
-- `dist/index.html`: event content and accessible controls.
-- `dist/hackathon.css`, `dist/hackathon-details.css`: visual design and responsive styling.
-- `dist/hackathon.js`: event interactions and local drafts.
-- `dist/opening.js`, `dist/opening.css`, `dist/opening-motion.css`: loading intro.
-- `dist/assets/real-doddabetta.webp`: enhanced real photograph.
-- `REAL-PHOTO-ENHANCEMENT.md`: image enhancement provenance.
-- `verify.mjs`: source, asset, navigation, and JavaScript syntax checks.
-- `vercel.json`: deployment configuration.
-
-Google Fonts is optional; system fonts are used if it is unavailable.
+Open http://localhost:4173. Add `?skipIntro` to bypass the opening sequence.
 
 ## Verify
 
 ```sh
 node verify.mjs
 ```
+
+This checks asset references, navigation targets, duplicate IDs, JavaScript syntax, CSS asset paths, and deployment configuration. It does not replace rendered browser checks.
+
+## Active files
+
+- `dist/index.html`: event content and accessible controls.
+- `dist/summit.css`: responsive design and animations.
+- `dist/summit.js`: navigation, countdown, motion preferences, and intro.
+- `dist/assets/summit-poster.png`, `ooty-hacks-logo.png`, `event-highlights.png`: original supplied artwork.
+- `dist/assets/summit-mark.svg`: compact navigation mark.
+
+Legacy `hackathon*`, `opening*`, and real-photo assets are retained for reference but are not loaded by the redesigned page. Google Fonts is optional; system fallback fonts remain available.
