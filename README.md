@@ -11,6 +11,7 @@ A static event website for the offline 24-hour hackathon in Ooty, The Nilgiris, 
 - Persistent pause-motion control and system reduced-motion support.
 - Countdown to the event date in India Standard Time, with event-weekend and concluded states.
 - Two mission previews, a 12th-hour twist, event journey, supplied sponsor artwork, and expandable FAQs.
+- Mission cards disclose technical domains only; problem titles, datasets, scenarios, constraints, and evaluation briefs remain classified until kickoff.
 - The supplied styled QR, decoder-verified and linked to its confirmed official OOTY HACKS destination.
 - Public-page information architecture adapted from the Quantexa event site: hero, event details, highlights, about, juries, missions, schedule, rewards, sponsors, organizing team, FAQ, registration, and footer.
 - No evaluation, submission, admin, team-login, or final portal routes are included in this phase.
