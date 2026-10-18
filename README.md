@@ -12,9 +12,11 @@ A static event website for the offline 24-hour hackathon in Ooty, The Nilgiris, 
 - Countdown to the event date in India Standard Time, with event-weekend and concluded states.
 - Two mission previews, a 12th-hour twist, event journey, supplied sponsor artwork, and expandable FAQs.
 - The supplied styled QR, decoder-verified and linked to its confirmed official OOTY HACKS destination.
+- Public-page information architecture adapted from the Quantexa event site: hero, event details, highlights, about, juries, missions, schedule, rewards, sponsors, organizing team, FAQ, registration, and footer.
+- No evaluation, submission, admin, team-login, or final portal routes are included in this phase.
 - Registration buttons lead to https://unstop.com/hackathons/ooty-hacks-hackhere-1768100.
 
-The exact venue, reporting time, mentor/jury roster, benefit details, and prize distribution remain to be announced. Career offers are subject to partner selection. GoHub, Scidaforest, and Unstop use supplied logo assets; ELRO Tech and delyon remain typeset because no artwork was supplied for them.
+The exact venue, reporting time, organizing-team profiles, mentor/jury roster, benefit details, and prize distribution remain to be announced. Career offers are subject to partner selection. GoHub, Scidaforest, and Unstop use supplied logo assets; ELRO Tech and delyon remain typeset because no artwork was supplied for them.
 
 ## Deploy on Vercel
 
