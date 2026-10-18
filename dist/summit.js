@@ -55,7 +55,7 @@
   matchMedia('(min-width: 851px)').addEventListener('change', event => {
     if (event.matches) setMenu(false);
   });
-  document.querySelectorAll('.waveform i').forEach((bar, i) => bar.style.setProperty('--i', i));
+  document.querySelectorAll('.data-bars i').forEach((bar, i) => bar.style.setProperty('--i', i));
   if ('IntersectionObserver' in window) {
     body.classList.add('motion-ready');
     const revealObserver = new IntersectionObserver(entries => {
