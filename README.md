@@ -1,6 +1,6 @@
 # OOTY HACKS 2026 — The Summit Expedition
 
-A static event website for the offline 24-hour hackathon in Ooty, The Nilgiris, on **19–20 December 2026**. Teams: **1–4 members**. Registration: **₹1,000 per team**. Prize pool: **₹1 lakh**.
+A static event website for the offline 24-hour hackathon in Ooty, The Nilgiris, on **19–20 December 2026**. Teams: **1–4 members**. Registration: **₹1,000 per team**. Prize pool: **₹50,000**.
 
 ## Design and interactions
 
